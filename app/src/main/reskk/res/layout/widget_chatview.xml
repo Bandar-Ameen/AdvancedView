@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootRL">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sendLLf"
+        android:orientation="vertical"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="0dp"
+        android:layout_above="@id/sendLL"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/h_round"
+        android:id="@+id/sendLLfk"
+        android:visibility="gone"
+        android:orientation="vertical"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendLLfko"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+
+            >
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/M_Option"
+                android:background="@drawable/ic_baseline_more_vert_24"
+                android:layout_height="40dp">
+
+            </ImageButton>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+             android:id="@+id/M_profile"
+
+                android:layout_height="70dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendLLfkt"
+                android:layoutDirection="rtl"
+
+
+                android:layout_weight="1"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical"
+
+
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layoutDirection="rtl"
+                android:gravity="center"
+
+                android:id="@+id/M_message_userName"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+
+
+                android:text="@string/hello_world"
+                android:layout_height="wrap_content">
+
+            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:gravity="center"
+
+                    android:id="@+id/M_message_userOnline"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="is online"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/M_back"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:layout_height="40dp">
+
+            </ImageButton>
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:id="@+id/chatRV">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendLL"
+        android:background="@drawable/gradient1"
+        android:layout_alignParentBottom="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="24dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:id="@+id/moreLL"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:minHeight="45dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="left">
+                        <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:mrl_rippleRoundedCorners="30dp"
+                            android:minHeight="40dp"
+                            android:visibility="visible"
+                            android:minWidth="40dp"
+                            android:id="@+id/cameraMRL"
+                            app:mrl_rippleOverlay="true"
+                            android:layout_gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/camera_icon"
+                                android:layout_margin="4dp"
+                                app:tint="@color/colorAccent" />
+                        </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                        <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:mrl_rippleRoundedCorners="30dp"
+                            app:mrl_rippleOverlay="true"
+                            android:minHeight="40dp"
+                            android:minWidth="40dp"
+                            android:visibility="gone"
+                            android:layout_gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/location_icon"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginBottom="4dp"
+                                app:tint="@color/colorAccent" />
+                        </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                        <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:mrl_rippleRoundedCorners="30dp"
+                            app:mrl_rippleOverlay="true"
+                            android:minHeight="40dp"
+                            android:minWidth="40dp"
+                            android:id="@+id/galleryMRL"
+                            android:layout_gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/gallery_icon"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginBottom="4dp"
+                                app:tint="@color/colorAccent" />
+                        </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                        <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:mrl_rippleRoundedCorners="30dp"
+                            app:mrl_rippleOverlay="true"
+                            android:minHeight="40dp"
+                            android:id="@+id/videoMRL"
+                            android:minWidth="40dp"
+                            android:layout_gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/video_icon"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginBottom="4dp"
+                                app:tint="@color/colorAccent" />
+                        </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                        <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:mrl_rippleRoundedCorners="30dp"
+                            app:mrl_rippleOverlay="true"
+                            android:minHeight="40dp"
+                            android:id="@+id/audioMRL"
+                            android:minWidth="40dp"
+                            android:layout_gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/audio_icon"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginBottom="4dp"
+                                app:tint="@color/colorAccent" />
+                        </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/expandMRL"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        app:mrl_rippleRoundedCorners="30dp"
+                        app:mrl_rippleOverlay="true">
+                        <com.astooltech.advancedview.proteus.chatview.photoview.ExpandIconView
+                            android:layout_width="40dp"
+                            android:id="@+id/expandIconView"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"/>
+                    </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="45dp"
+                        android:textSize="18sp"
+                        android:layout_weight="1"
+                        android:id="@+id/messageET"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/et_bg"
+                        android:hint="Say something..."
+                        />
+                    <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:mrl_rippleRoundedCorners="30dp"
+                        app:mrl_rippleOverlay="true"
+                        android:minHeight="40dp"
+                        android:id="@+id/micMRL"
+                        android:minWidth="40dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/mic_icon"
+                            app:tint="@android:color/black" />
+                    </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+
+                    <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/sendMRL"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+
+                        android:layout_marginRight="4dp"
+                        app:mrl_rippleRoundedCorners="30dp"
+                        app:mrl_rippleOverlay="true">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/send_icon"
+                            android:layout_gravity="center"
+                            app:tint="@color/colorAccent" />
+                    </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

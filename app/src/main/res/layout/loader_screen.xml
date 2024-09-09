@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+
+    <com.astooltech.advancedview.spinkit.SpinKitView
+        android:id="@+id/spin_kitm"
+        style="@style/SpinKitView.Large.Wave"
+        android:layout_width="wrap_content"
+
+        app:SpinKit_Color="@color/colorAccent"
+        android:layout_height="70dp"
+
+
+        android:layout_gravity="center"
+        android:fitsSystemWindows="true"
+        android:indeterminate="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/cairobold"
+        android:text="الرجاء الانتظار ..."
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

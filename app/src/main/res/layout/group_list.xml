@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/liner123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorDivider">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/hel12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:id="@+id/mmb12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/mmbv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+
+                    <TextView
+                        android:id="@+id/textenppnn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/cairobold"
+                        android:paddingRight="20dp"
+                        android:text="@string/groupsa"
+                        android:textColor="@color/blue_A200"
+                        android:textSize="13sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/group_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/cairobold"
+                        android:paddingRight="20dp"
+                        android:text="@string/groupsa"
+                        android:textColor="@color/indigo_A200"
+                        android:textSize="13sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner1235"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/liner123">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/md_indigo_A200">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/hel124"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/mmb125"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <ImageView
+                        android:id="@+id/btnemp_delete"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/blue_A200"
+                        android:background="@drawable/button_delete"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="-3dp"
+                        android:paddingRight="20dp"
+                        />
+
+
+
+
+                    <ImageView
+                        android:id="@+id/btnemp_editgrop"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/blue_A200"
+                        android:background="@drawable/button_mini_oval"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="-4dp"
+                        android:paddingRight="20dp"
+
+
+
+                        />
+
+
+
+                    <ImageView
+                        android:id="@+id/bbvb"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/blue_A200"
+                        android:background="@drawable/ic_playlist_play_grey600_24dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="-4dp"
+                        android:paddingRight="20dp"
+
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/group_ID"
+                        android:text="number"
+                        android:textDirection="rtl"
+                        android:paddingRight="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_A200"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

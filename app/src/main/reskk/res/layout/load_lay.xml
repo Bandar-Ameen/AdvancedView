@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <!-- Login progress -->
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/radial_gradient_bkg">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lodingfrm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <com.astooltech.advancedview.spinkit.SpinKitView
+                android:id="@+id/login_progress"
+                style="@style/SpinKitView.Wave"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                />
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="يتم التحميل"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/textstustuse"
+                    android:textColor="#80ffffff"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

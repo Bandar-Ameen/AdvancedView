@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootRLf">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sendLL"
+
+       android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/prograsss"
+            android:layoutDirection="rtl"
+            android:minHeight="60dp"
+            android:visibility="gone"
+            android:gravity="center"
+
+            android:layout_height="wrap_content">
+            <com.astooltech.advancedview.spinkit.SpinKitView
+                android:layout_width="match_parent"
+                android:id="@+id/waitID"
+                android:layout_height="wrap_content">
+
+            </com.astooltech.advancedview.spinkit.SpinKitView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ErrorStat"
+            android:layoutDirection="rtl"
+           android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center"
+
+            android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="match_parent"
+              android:id="@+id/textError"
+              android:text="@string/endless_error"
+              android:layout_gravity="center"
+              android:gravity="center"
+
+              android:layout_height="wrap_content">
+
+
+          </TextView>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/ButtonError"
+                android:text="@string/endless_error"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:layout_height="wrap_content">
+
+
+            </Button>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/mcontiners"
+
+            android:gravity="center"
+
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

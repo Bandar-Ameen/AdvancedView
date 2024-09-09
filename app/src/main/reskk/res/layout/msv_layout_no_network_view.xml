@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/no_network_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="?attr/stf_tip_img_size"
+        android:layout_height="?attr/stf_tip_img_size"
+        android:tint="?attr/colorAccent"
+
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/no_network_view_tv"
+android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:text="@string/namprodact" />
+
+
+</LinearLayout>

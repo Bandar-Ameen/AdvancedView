@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <!-- Login progress -->
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/radial_gradient_bkg">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/error"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_baseline_error_24"
+                        android:layout_height="100dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="some error"
+                        android:paddingRight="10dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:id="@+id/textstustuse"
+                        android:textColor="#80ffffff"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+                <Button
+                    android:layout_gravity="center"
+                    android:text="retry"
+                    android:id="@+id/retrys"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/stContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/stProgress"
+            android:layout_width="?attr/stf_progressbar_size"
+            android:layout_height="?attr/stf_progressbar_size"
+            android:layout_marginTop="?attr/xui_config_content_spacing_vertical"
+            android:indeterminate="true" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/stImage"
+            android:layout_width="?attr/stf_tip_img_size"
+            android:layout_height="?attr/stf_tip_img_size"
+            android:layout_marginTop="?attr/xui_config_content_spacing_vertical"
+            android:tint="?attr/colorAccent"
+            app:srcCompat="@drawable/ic_info_grey600_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/stMessage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="?attr/xui_config_content_spacing_vertical"
+             />
+
+        <Button
+            android:id="@+id/stButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="?attr/xui_config_content_spacing_horizontal"
+            android:text="@string/err_no_edit" />
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,185 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="input_button_width">36dp</dimen>
+    <dimen name="input_button_height">36dp</dimen>
+    <dimen name="input_button_margin">16dp</dimen>
+    <dimen name="input_text_size">17sp</dimen>
+    <dimen name="input_padding_left">16sp</dimen>
+    <dimen name="input_padding_right">16sp</dimen>
+    <dimen name="input_padding_top">8sp</dimen>
+    <dimen name="input_padding_bottom">8sp</dimen>
+    <dimen name="text_medium">17sp</dimen>
+    <dimen name="message_bubble_corners_radius">15dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="default_stroke_width">2dp</dimen>
+    <dimen name="default_content_padding">8dp</dimen>
+    <dimen name="default_image_size">92dp</dimen>
+    <!-- navigation_drawer.xml -->
+    <dimen name="drawer_layout_width">320dp</dimen>
+
+    <!-- title item list -->
+    <dimen name="default_textSize">14sp</dimen>
+
+    <dimen name="userBackground_layout_height">164dp</dimen>
+
+    <dimen name="userPhoto_layout_width">64dp</dimen>
+    <dimen name="userPhoto_layout_height">64dp</dimen>
+    <dimen name="userPhoto_layout_marginTop">16dp</dimen>
+    <dimen name="userPhoto_layout_marginLeft">16dp</dimen>
+
+    <dimen name="userPhotoTwo_layout_width">40dp</dimen>
+    <dimen name="userPhotoTwo_layout_height">40dp</dimen>
+    <dimen name="userPhotoTwo_layout_marginRight">16dp</dimen>
+
+    <dimen name="userPhotoTree_layout_width">40dp</dimen>
+    <dimen name="userPhotoTree_layout_height">40dp</dimen>
+    <dimen name="userPhotoTree_layout_marginRight">16dp</dimen>
+
+    <dimen name="userData_layout_height">56dp</dimen>
+    <dimen name="userData_layout_marginBottom">8dp</dimen>
+
+    <dimen name="userName_textSize">14sp</dimen>
+    <dimen name="userName_layout_marginLeft">16dp</dimen>
+
+    <dimen name="userEmail_textSize">14sp</dimen>
+    <dimen name="userEmail_layout_marginLeft">16dp</dimen>
+    <dimen name="dialog_avatar_width">56dp</dimen>
+    <dimen name="dialog_avatar_height">56dp</dimen>
+    <dimen name="dialog_last_message_avatar_width">24dp</dimen>
+    <dimen name="dialog_last_message_avatar_height">24dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_message_text_size">16sp</dimen>
+    <dimen name="dialog_date_text_size">14sp</dimen>
+    <dimen name="dialog_unread_bubble_text_size">13sp</dimen>
+    <dimen name="dialog_divider_margin_left">88dp</dimen>
+    <dimen name="dialog_divider_margin_right">0dp</dimen>
+
+    <dimen name="message_avatar_width">40dp</dimen>
+    <dimen name="message_avatar_height">40dp</dimen>
+    <dimen name="message_padding_left">16dp</dimen>
+    <dimen name="message_padding_right">16dp</dimen>
+    <dimen name="message_padding_top">16dp</dimen>
+    <dimen name="message_padding_bottom">16dp</dimen>
+    <dimen name="message_text_size">17sp</dimen>
+    <dimen name="message_time_text_size">14sp</dimen>
+    <dimen name="message_date_header_text_size">16sp</dimen>
+    <dimen name="message_date_header_padding">16dp</dimen>
+    <dimen name="message_incoming_bubble_margin_right">40dp</dimen>
+    <dimen name="message_outcoming_bubble_margin_left">88dp</dimen>
+
+    <dimen name="launchscreen_product_logo_bottom">350dp</dimen>
+    <dimen name="launchscreen_text_logo_bottom">150dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="tabstrip_textsize">13dp</dimen>
+    <dimen name="sug_event_tabheight">28dp</dimen>
+
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_top_small">8dp</dimen>
+    <dimen name="margin_bottom">16dp</dimen>
+    <dimen name="margin_bottom_small">8dp</dimen>
+    <dimen name="margin_left">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_right">16dp</dimen>
+    <dimen name="margin_right_handle">22dp</dimen>
+    <dimen name="icon_width">40dp</dimen>
+    <dimen name="icon_height">40dp</dimen>
+    <dimen name="icon_touchable_component_mini">40dp</dimen>
+    <dimen name="icon_circular_width">24dp</dimen>
+    <dimen name="icon_circular_height">24dp</dimen>
+
+    <dimen name="butterbar_height">3dp</dimen>
+    <dimen name="toolbar_height">64dp</dimen><!-- 56 + 8 small margin top -->
+    <dimen name="popup_button_min_height">48dp</dimen>
+    <dimen name="popup_max_height">290dp</dimen>
+    <dimen name="bottom_sheet_peek">312dp</dimen>
+
+    <dimen name="card_height">60dp</dimen>
+    <dimen name="card_extra_height">15dp</dimen>
+    <dimen name="label_height">150dp</dimen>
+    <dimen name="dialog_padding_vertical">24dp</dimen>
+    <dimen name="dialog_padding_horizontal">24dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Navigation Drawer -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_drawer_max_width">320dp</dimen>
+
+    <!-- Header View -->
+    <dimen name="header_view_start_margin_left">16dp</dimen>
+    <dimen name="header_view_end_margin_left">40dp</dimen>
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+    <dimen name="header_view_start_margin_bottom">14dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="astoolTextSizeA">13dp</dimen>
+    <dimen name="rounn">13dp</dimen>
+    <dimen name="astoolTextSizeATitle">15dp</dimen>
+    <dimen name="astoolBorderSize">0dp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="astool_borderInput">3dp</dimen>
+    <dimen name="astool_padeng_input">3dp</dimen>
+    <dimen name="inbetween_space">8dp</dimen>
+
+
+    <dimen name="appbar_padding">16dp</dimen>
+
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="default_row_header_width">55dp</dimen>
+    <dimen name="default_column_header_height">55dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="dot_margin_right">10dp</dimen>
+    <dimen name="msg_no_notes">26sp</dimen>
+    <dimen name="margin_top_no_notes">120dp</dimen>
+    <dimen name="lbl_new_note_title">20sp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="input_new_note">20sp</dimen>
+    <dimen name="dot_height">30dp</dimen>
+    <dimen name="dot_text_size">40sp</dimen>
+    <dimen name="timestamp">14sp</dimen>
+    <dimen name="note_list_text">18sp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="bottom_margin">46dp</dimen>
+    <dimen name="bottom_width">126dp</dimen>
+    <dimen name="bottom_height">86dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="cell_height">40dp</dimen>
+    <dimen name="row_header_width">55dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+</resources>

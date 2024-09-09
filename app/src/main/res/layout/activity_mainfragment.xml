@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:theme="@style/ToolBarStyle"
+
+    tools:context=".finaldemo.fragments.MainfragmentActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@android:color/white"
+        app:menu="@menu/menu_mainx"
+        app:titleTextColor="@android:color/white">
+        <Button
+            android:layout_width="50dp"
+            android:text="fff"
+            android:id="@+id/frb"
+            android:layout_height="50dp">
+
+        </Button>
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/fra"
+            android:text="fffv"
+            android:layout_height="50dp">
+
+        </Button>
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/cfragment_container3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

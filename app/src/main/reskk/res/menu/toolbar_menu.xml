@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:title="refresh"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/copy"
+        android:title="copy"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/default_clean"
+        android:title="default_clean"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/error_website"
+        android:title="error"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/default_browser"
+        android:title="default"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+
+
+</menu>

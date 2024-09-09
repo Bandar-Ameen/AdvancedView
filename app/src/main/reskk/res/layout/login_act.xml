@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+<com.astooltech.advancedview.finaldemo.Loadinglayoutt
+    android:layout_width="match_parent"
+    android:id="@+id/kkm"
+    android:layout_height="match_parent">
+
+
+    <!-- Login progress -->
+    <com.astooltech.advancedview.proteus.parser.webview.gm.AdvancedWebView
+        android:layout_width="match_parent"
+android:visibility="gone"
+        android:layout_height="match_parent"
+        android:id="@+id/loginsys"
+        >
+
+    </com.astooltech.advancedview.proteus.parser.webview.gm.AdvancedWebView>
+</com.astooltech.advancedview.finaldemo.Loadinglayoutt>
+
+</LinearLayout>

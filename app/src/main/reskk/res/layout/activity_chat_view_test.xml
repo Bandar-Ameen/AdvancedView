@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+   >
+    <com.astooltech.advancedview.proteus.chatview.widget.ChatView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:leftBubbleLayoutColor="#ff7b7b"
+        app:rightBubbleLayoutColor="@color/colorAccent2"
+        app:leftBubbleTextColor="@android:color/white"
+        app:rightBubbleTextColor="@android:color/black"
+        android:layout_above="@+id/sendLL"
+        app:showSenderLayout="true"
+        app:showSenderName="true"
+        android:id="@+id/chatView">
+
+    </com.astooltech.advancedview.proteus.chatview.widget.ChatView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendLL"
+        android:visibility="gone"
+        android:background="@drawable/gradient1"
+        android:layout_alignParentBottom="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="24dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical">
+                <HorizontalScrollView
+                                    android:layout_width="match_parent"
+                                    android:id="@+id/moreLL1"
+                                    android:orientation="vertical"
+                                   android:visibility="gone"
+                                    android:layout_height="wrap_content"
+                                    android:background="#f2f2f2"
+                                    android:minHeight="45dp">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="10dp"
+                                        android:paddingRight="10dp"
+                                        android:orientation="horizontal"
+                                        android:layout_gravity="left">
+                                        <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            app:mrl_rippleRoundedCorners="30dp"
+                                            android:minHeight="40dp"
+                                            android:minWidth="40dp"
+                                            app:mrl_rippleOverlay="true"
+                                            android:layout_gravity="center">
+                                           <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                               android:src="@drawable/camera_icon"
+                                                android:layout_margin="4dp"
+                                             />
+                                        </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                                    <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:minHeight="40dp"
+                                        android:minWidth="40dp"
+                                        android:layout_gravity="center">
+                                        <ImageView
+                                          android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/location_icon"
+                                            android:layout_marginLeft="4dp"
+                                            android:layout_marginTop="4dp"
+                                            android:layout_marginBottom="4dp"
+                                           />
+                                    </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+                                <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:minHeight="40dp"
+                                    android:minWidth="40dp"
+                                    android:id="@+id/galleryMRL1"
+                                    android:layout_gravity="center">
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                        android:src="@drawable/gallery_icon"
+                                        android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                       android:layout_marginBottom="4dp"
+                                     />
+                               </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+
+
+                     </LinearLayout>
+                   </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/expandMRL"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        app:mrl_rippleRoundedCorners="30dp"
+                        app:mrl_rippleOverlay="true">
+                        <com.astooltech.advancedview.proteus.chatview.photoview.ExpandIconView
+                            android:layout_width="40dp"
+                            android:id="@+id/expandIconView1"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"/>
+                    </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+
+
+                        <EditText
+                            android:id="@+id/messageET1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/et_bg"
+                            android:hint="Say something..."
+                            android:minHeight="45dp"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="4dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    <com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/sendMRL"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+
+                        android:layout_marginRight="4dp"
+                        app:mrl_rippleRoundedCorners="30dp"
+                        app:mrl_rippleOverlay="true">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/sendIcon"
+                            android:src="@drawable/send_icon"
+                            android:layout_gravity="center"
+                            app:tint="@color/colorAccent" />
+                    </com.astooltech.advancedview.proteus.parser.custom.MaterialRippleLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

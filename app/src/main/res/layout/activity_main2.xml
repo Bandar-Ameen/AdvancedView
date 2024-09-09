@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.astooltech.advancedview.finaldemo.MainActivity2">
+    <com.astooltech.advancedview.proteus.view.loadingeverywhere.ProgressLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ee"
+
+        android:layout_height="200dp">
+
+
+
+</com.astooltech.advancedview.proteus.view.loadingeverywhere.ProgressLayout>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:id="@+id/kk"
+    android:layout_height="50dp">
+
+</EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/kkl"
+        android:layout_height="50dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+
+        android:id="@+id/kkll"
+        android:layout_height="50dp">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/uui"
+        android:text="jhjh"
+        android:layout_height="50dp">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/uui2"
+        android:text="jhjh"
+        android:layout_height="50dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/uui3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="jhjgggggggh">
+
+    </Button>
+
+
+    <com.astooltech.advancedview.finaldemo.opengraphview.OpenGraphView
+        android:id="@+id/k"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        app:bgColor="@android:color/white"
+        app:cornerRadius="4dp"
+
+
+
+        >
+
+    </com.astooltech.advancedview.finaldemo.opengraphview.OpenGraphView>
+</LinearLayout>
