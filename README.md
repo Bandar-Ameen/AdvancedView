@@ -142,3 +142,10 @@ try {
 ```
 
 # screenshot
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075250_%20.jpg)
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075253_%20.jpg)
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075320_%20.jpg)
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075430_%20.jpg)
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075436_%20.jpg)
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075600_%20.jpg)
+![khj](https://github.com/Bandar-Ameen/AdvancedView/blob/main/screen_shott/Screenshot_20240909-075606_%20.jpg)
